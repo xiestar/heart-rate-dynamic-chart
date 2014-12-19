@@ -9,16 +9,7 @@ android-app
 ## **一、项目的平台** ##
 
 启动Eclipse，点击菜单并导入Android客户端项目，请确保你当前的Android SDK是最新版。<br>
-*如果编译出错的处理方法：*
-1.请修改项目根目录下的 project.properties 文件中的target。<br>
-
-2.我的项目中为了兼容低版本采用了android.support.v7的库文件，如果style.xml有问题应该是需要引入该库。<br>
-引入的方法参见Android开发文档https://developer.android.com/tools/support-library/setup.html<br>
-
-如果你的SDK中没有\adt\adt-bundle\sdk\extras\android\support\v7该文件夹，你需要通过SDKManager下载。<br>
-打开SDKManager，最下面的文件夹xtras展开Android Support Library点击下载。<br>
-如果你被墙的话，可以通过该github网址https://github.com/koush/android-support-v7-appcompat下载，<br>
-然后放到上述文件夹下。<br>
+如果编译出错的处理，请修改项目根目录下的 project.properties 文件中的target。<br>
 推荐使用Android 2.3 以上版本的SDK,默认编码UTF-8，请使用JDK1.7编译：
 
 > target=android-21
@@ -40,4 +31,7 @@ github链接：https://github.com/jondwillis/AChartEngine <br>
 
 #### 3、参考链接 ####
 
+StackOverFlow链接：
 http://stackoverflow.com/questions/20743109/dynamic-graph-of-sensor-data-with-achartengine-android
+动态心电图Demo链接：
+http://www.programering.com/a/MTO5gDMwATk.html
